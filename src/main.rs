@@ -3,6 +3,8 @@ use ed25519_bip32::{XPrv, DerivationScheme};
 
 fn main() {
 
+    // secp256k1
+
     let master_key = ExtendedPrivKey::random().unwrap();
 
     let normal_key_index = KeyIndex::Normal(0);
@@ -18,6 +20,7 @@ fn main() {
     println!("{:x?}", derived_public_key);
     println!("{:x?}", normal_derived_public_key);
 
+    // Ed25519
 
     let bytes = [1u8; 96];
     let xprv = XPrv::normalize_bytes_force3rd(bytes);
