@@ -1,0 +1,7 @@
+Rust experiments with BIP-32 for both secp256k1 and Ed25519.
+
+* License
+
+  © 2020  Sébastien Le Callonnec
+
+  This project is licensed under the Apache License 2.0.
