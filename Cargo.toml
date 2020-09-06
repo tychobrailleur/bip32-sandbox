@@ -1,0 +1,13 @@
+[package]
+name = "bip32-sandbox"
+version = "0.1.0"
+authors = ["Sébastien Le Callonnec <sebastien@weblogism.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+secp256k1 = "0.19.0"
+hdwallet = "0.2.5"
+ed25519-bip32 = "0.3.1"
+rand = "0.7.3"
